@@ -16,8 +16,8 @@ const routes = [
   },
   {
     path: "/dashboard-default",
-    name: "Dashboard",
-    component: Dashboard,
+    name: "Signin",
+    component: Signin,
   },
   {
     path: "/tables",
@@ -45,9 +45,9 @@ const routes = [
     component: Profile,
   },
   {
-    path: "/signin",
-    name: "Signin",
-    component: Signin,
+    path: "/Dashboard",
+    name: "Dashboard",
+    component: Dashboard,
   },
   {
     path: "/signup",
