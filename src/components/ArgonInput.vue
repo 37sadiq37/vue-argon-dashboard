@@ -82,7 +82,6 @@ const hasIcon = (icon) => (icon ? "input-group" : null);
         :placeholder="placeholder"
         :isRequired="isRequired"
         @input="emit('update:modelValue', $event.target.value)"
-        v-bind="$attrs"
       />
       <span v-if="iconDir === 'right'" class="input-group-text">
         <i :class="getIcon(icon)"></i>
